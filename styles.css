@@ -1,0 +1,101 @@
+/* div {
+    border-style: double;
+    border-color: blueviolet;
+    border-radius: 1px;
+    background-color:antiquewhite; 
+} */
+
+.container {
+    height: 480px;
+    width: 400px;
+    margin: auto;
+    margin-top: 44px;
+    background-color: lightgray;
+} 
+
+.topTier {
+    height: 10%;
+    display:flex;
+    padding: 8px 8px 8px 8px;
+}
+
+.logo {
+    height:100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.igTittle {
+    height:100%;
+    width: 80%;
+    padding: 5px 3px;
+}
+
+/* .igTittle > div:nth-child(n) {
+    background-color: greenyellow;
+} */
+
+.igTittle1 {
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+.igTitleLocation {
+    font-size: smaller;
+}
+
+.threeDots {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.image {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagenVlc {
+    height: 15rem;
+}
+
+.icons {
+    display: flex;
+    margin: 15px 15px;
+}
+
+.lastIcon {
+    height:auto;
+    width: 80%;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.text {
+    font-size: smaller;
+    padding:  0rem 1rem 0rem 1rem;
+}
+
+.whoLiked {
+    padding-bottom: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
